@@ -63,7 +63,7 @@ On the other hand, a central midfielder will probably have a few teammates in si
 This relationship between the direction a player is facing and the number of visible teammates is represented in the following tables.
 
 <p align="center">
-  <img src="https://github.com/gkrhines/research/blob/main/src/teammate_counts.png" alt="drawing" width="700"/>
+  <img src="https://github.com/gkrhines/research/blob/main/src/teammate_counts.jpeg" alt="drawing" width="700"/>
 </p>
 
 When compared side-by-side, it makes complete sense that players who play on the opposite sides of the field also have inverse relationships to one another. Furthermore, if we were to split each position's performance based on the half it was played in (and didn't normalize the direction of play), we would see a similar converse relationship.
