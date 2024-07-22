@@ -141,7 +141,7 @@ These results are encouraging but we need a larger sample size than three to mak
 Next, we used the common approach of k-means clustering to group similar performances together. The analysis resulted in three centers being found in the data set. I've summarized the characteristics of each cluster below which ideally line up closely to styles that left wingers are known to use.
 
 <p align="center">
-  <img src="https://github.com/gkrhines/research/blob/main/src/cluster_high_low.png" alt="drawing" width="500"/>
+  <img src="https://github.com/gkrhines/research/blob/main/src/cluster_high_low.png" alt="drawing" width="475"/>
 </p>
 
 Players grouped into Cluster 1 spent a significant more time playing on the left wing in both offensive and defensive roles. Additionally, those players spent much less time in the center of the field and almost no time on the right side. This is a strong match with the role commonly referred to as a "vertical winger".
