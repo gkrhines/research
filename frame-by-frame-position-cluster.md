@@ -38,7 +38,7 @@ Gregory's Ready Player Run: Off-ball run identification and classification[^fram
 
 [^frame-by-frame-position-cluster-2]: <https://static.capabiliaserver.com/frontend/clients/barca/wp_prod/wp-content/uploads/2020/01/ed15d067-ready-player-run-barcelona-paper-sam-gregory.pdf>
 
-![](https://github.com/gkrhines/research/blob/main/src/centroid_adj_positions.png =1774x)
+<img src="https://github.com/gkrhines/research/blob/main/src/centroid_adj_positions.png" alt="drawing" width="1774"/>
 
 Though this is helpful to identify trends on the match level, its inability to help us add context to any specific moment in a match highlights what a frame-by-frame application would add to our analysis. So, let's create one!
 
@@ -60,7 +60,7 @@ On the other hand, a central midfielder will probably have a few teammates in si
 
 This relationship between the direction a player is facing and the number of visible teammates is represented in the following tables.
 
-![](https://github.com/gkrhines/research/blob/main/src/teammate_counts.png =457x)
+<img src="https://github.com/gkrhines/research/blob/main/src/teammate_counts.png" alt="drawing" width="457"/>
 
 When compared side-by-side, it makes complete sense that players who play on the opposite sides of the field also have inverse relationships to one another. Furthermore, if we were to split each position's performance based on the half it was played in (and didn't normalize the direction of play), we would see a similar converse relationship.
 
@@ -72,7 +72,7 @@ Specifically, I used a XGBoost classifier model with default parameters to map t
 
 Here are the frames from earlier and the model's predictions for each:
 
-![](https://github.com/gkrhines/research/blob/main/src/true_positions-01.png)
+![](https://github.com/gkrhines/research/blob/main/src/true_positions.png)
 
 ![](https://github.com/gkrhines/research/blob/main/src/predictions.png)
 
@@ -120,7 +120,7 @@ If we were just using the above information to identify player style, we would p
 
 Let's see if using each player's distribution of position assignments will help us determine which players should be grouped together and provide a more in depth analysis of each winger. Another confusion matrix should do the trick.
 
-![](https://github.com/gkrhines/research/blob/main/src/lw_confusion_matrix.png =471x)
+<img src="https://github.com/gkrhines/research/blob/main/src/lw_confusion_matrix.png" alt="drawing" width="471"/>
 
 There are a few important takeaways from this.
 
@@ -134,7 +134,7 @@ These results are encouraging but we need a larger sample size than three to mak
 
 Next, we used the common approach of k-means clustering to group similar performances together. The analysis resulted in three centers being found in the data set. I've summarized the characteristics of each cluster below which ideally line up closely to styles that left wingers are known to use.
 
-![](https://github.com/gkrhines/research/blob/main/src/cluster_high_low-01.png =407x)
+<img src="https://github.com/gkrhines/research/blob/main/src/cluster_high_low.png" alt="drawing" width="407"/>
 
 Players grouped into Cluster 1 spent a significant more time playing on the left wing in both offensive and defensive roles. Additionally, those players spent much less time in the center of the field and almost no time on the right side. This is a strong match with the role commonly referred to as a "vertical winger".
 
