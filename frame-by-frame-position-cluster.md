@@ -46,7 +46,7 @@ Though this is helpful to identify trends on the match level, its inability to h
 
 To start, I will ask you to imagine that you are the right back in the following formation:
 
-![](https://github.com/devinpleuler/research/blob/master/src/rb.png)
+![Fixed to Fluid: Frame-by-Frame Role Classification](https://github.com/devinpleuler/research/blob/master/src/rb.png)
 
 Besides the goalkeeper and central defenders, most of your teammates will usually be found higher up the field than you. You will often find yourself in line with the other wide defender. Except for the occasional winger, all of your teammates will be to your left when you are facing upfield.
 
@@ -54,7 +54,7 @@ As it turns out, all of the information you need to determine your current tacti
 
 To translate this spatial awareness into features that a computer can understand, let's imagine our player rotating in place and counting the number of teammates they can see in front of them each time he turns a little further.
 
-![](https://github.com/devinpleuler/research/blob/master/src/rotate.gif)
+![Fixed to Fluid: Frame-by-Frame Role Classification](https://github.com/devinpleuler/research/blob/master/src/rotate.gif)
 
 When a goalkeeper is facing away from their goal, they will be able to see all ten of their teammates but will almost always not see anyone when looking toward their own goal.
 
